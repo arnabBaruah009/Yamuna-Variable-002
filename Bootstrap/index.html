@@ -17,11 +17,11 @@
       margin: 24px;
       padding: 24px;
     }
-
+    
     .imgbanner {
       width: 32.5%;
     }
-
+    
     .imgbanner2 {
        width:49%;
     }
@@ -32,14 +32,1144 @@
       transform: scale(1.03);
     }
   </style>
+<style>
+ 
+ .carousel-inner {
+    transition-duration: 25000ms;
+  }
+  .carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel-item {
+ 
+  flex: 0 0 100%;
+  transition: transform 2s ease;
+}
+.carousel-item img {
+  width: 100%; 
+  height: auto; 
+}
+
+
+
+@keyframes pushRight {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+</style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Mulish", sans-serif;
+      }
+      .CartButton {
+        background-color: #25a541;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+      }
+      .shopping_cart {
+        position: relative;
+        top: 5px;
+      }
+      .cardImage {
+        width: 136px;
+        height: 136px;
+        position: relative;
+        left: 50px;
+        top: 10px;
+      }
+      .veglogo {
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: -40px;
+        left: 60px;
+      }
+      #select::-ms-expand {
+        display: none;
+      }
+    </style>
+  </head>
+    
 </head>
 
 <body>
   <!-- Navbar -->
 
-  <!-- 1-Slideshow_01 -->
+    <!-- 1-Slideshow_01 -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner"  >
+        <div class="carousel-item active" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1may24-crsl-ds-mp2.jpg&w=1920&q=75" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1may24-crsl-dg-mp.jpg&w=1920&q=75" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1may24-crsl-beautystore.jpg&w=1920&q=75" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item"  >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1may24-crsl-womenhyg-mp.jpg&w=1920&q=75" alt="">
+        </div>
+        <div class="carousel-item" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1may24-crsl-serveware.jpg&w=1920&q=75"  alt="" >
+        </div>
+      
+      </div>
+      
+    </div>
 
-  <!-- 2-CardSlideshow_01 -->
+    <!-- 2-CardSlideshow_01 -->
+    <div
+      class="container container-md container-sm container-lg container-xl container-xxl container-fluid mx-auto bg-info"
+    >
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <!-- 1st carosel -->
+          <div class="carousel-item active p-4 d-flex column-gap-2">
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: auto"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 2nd card -->
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 3 rd card -->
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 4th card -->
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 5th card -->
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 6th card -->
+          </div>
+          <!-- 2nd carosel -->
+          <div class="carousel-item p-4 d-flex column-gap-2">
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 2nd card -->
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 3 rd card -->
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 4th card -->
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 5th card -->
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd carosel -->
+          <div class="carousel-item p-4 d-flex column-gap-2">
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 2nd card -->
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 3 rd card -->
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 4th card -->
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 5th card -->
+            <div
+              class="card"
+              style="width: 245px; height: 380px; padding: 8px, 12px"
+            >
+              <div style="position: relative">
+                <img
+                  class="cardImage"
+                  src="https://res.fkhealthplus.com/incom/images/product/Kapiva-Get-Slim-Juice-with-12-Potent-Herbs-1702544352-10103690-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <img
+                  class="veglogo"
+                  src="https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title text"
+                  style="font-size: 14px; width: 233px; height: 40px"
+                >
+                  Kapiva Get Slim Juice : 1 Litree
+                </h5>
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex ms-4 column-gap-2" style="font-size: 12px">
+                    <div>
+                      <p style="margin-bottom: 2px">MRP</p>
+                      <del>₹ 549</del>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 2px">DMart</p>
+                      <p style="font-size: 14x">384</p>
+                    </div>
+                  </div>
+                  <div class="text-success">
+                    <span class="fw-bold">₹ 165</span>
+                    <p class="text-center mb-0" style="font-size: 12px">OFF</p>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic">
+                  <p>(Inclusive of all taxes)</p>
+                </div>
+                <div>
+                  <select
+                    class="form-select form-select-sm mb-2"
+                    aria-label=".form-select-sm example"
+                    id="select"
+                  >
+                    <option value="1 L (₹ 0.38 / 1 ml)">
+                      1 L (₹ 0.38 / 1 ml)
+                    </option>
+                  </select>
+
+                  <button
+                    class="CartButton border-0 text-white py-2 align-items-baseline rounded"
+                  >
+                    <span class="shopping_cart material-symbols-outlined">
+                      shopping_cart
+                    </span>
+                    ADD TO CART
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button btn-primary"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
 
   <!-- 3-Banner_01 -->
 
@@ -51,6 +1181,23 @@
   </div>
 
   <!-- 4-Slideshow_02 -->
+  
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner"  >
+        <div class="carousel-item active" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F22mar24-crsl-summer1.jpg&w=1920&q=75" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F11apr24-crsl-st-kidsvacation1.jpg&w=1920&q=75" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F24mar24-crsl-cricket.jpg&w=1920&q=75" class="d-block w-100" alt="...">
+        </div>
+      
+      
+      </div>
+      
+    </div>
 
   <!-- 5-Banner_02 -->
 
@@ -62,7 +1209,6 @@
       alt="image">
     <img class="imgbanner c" src="https://cdn.dmart.in/images/rwd/banners/vwctb/1may23-3cw-stationery.jpg" alt="image">
     <img class="imgbanner c" src="https://cdn.dmart.in/images/rwd/banners/vwctb/1may23-3cw-homedecor.jpg" alt="image">
-
   </div>
 
   <!-- 6-Banner_03 -->
@@ -71,6 +1217,20 @@
     class="card container container-sm container-md container-lg container-xl container-xxl container-fluid mx-auto Banner">
 
     <img src="https://cdn.dmart.in/images/rwd/banners/curated/1may24-curated-de-bang.jpg" alt="image">
+
+    <!-- 19-Slideshow_04 -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner"  >
+        <div class="carousel-item active" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1may24-crsl-babycare-mp.jpg&w=1920&q=75" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1jun23-crsl-cookware.jpg&w=1920&q=75" class="d-block w-100" alt="...">
+        </div>
+       
+      </div>
+      
+    </div>
 
   </div>
 
@@ -134,6 +1294,28 @@
   </div>
 
   <!-- 16-Slideshow_03 -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner"  >
+        <div class="carousel-item active" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1feb24-crsl-beco.jpg&w=1920&q=75" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1feb24-crsl-beco.jpg&w=1920&q=75" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F23feb24-crsl-brand-farmley.jpg&w=1920&q=75" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item"  >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F7nove23-crsl-brand-mcaffeine1.jpg&w=1920&q=75" alt="">
+        </div>
+        <div class="carousel-item" >
+          <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F4apr24-crsl-brand-plum-25off.jpg&w=1920&q=75"  alt="" >
+        </div>
+        
+      
+      </div>
+      
+    </div>
 
   <!-- 17-CardSlideshow_06 -->
 
