@@ -254,8 +254,9 @@ body {
   .cardSlide-card {
     width: auto;
   }
-#select::-ms-expand {
-  display: none;
+  #select::-ms-expand {
+    display: none;
+  }
 }
 
 /* ft33_239 */
@@ -272,7 +273,7 @@ body {
 .wordfluid {
   font-weight: 700;
   line-height: 24px;
-  margin-bottom: 24px
+  margin-bottom: 24px;
 }
 
 .imgbanner2 {
@@ -305,7 +306,6 @@ body {
     font-size: small;
   }
 }
-
 
 /* ft33_246 */
 
