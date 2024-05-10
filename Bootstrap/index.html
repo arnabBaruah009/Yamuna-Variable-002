@@ -192,15 +192,134 @@
         class="carousel"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner slide">
-          <!-- 1st carosel -->
-          <div class="carousel-item active p-4 d-flex column-gap-2">
-            <div
-              class="card"
-              style="width: 245px; height: 380px; padding: 8px, 12px"
-            >
-              <div style="position: relative">
-                <img
+        <div class="CarouselTitleAndViewAll">
+          <span>Popular Categories</span>
+        </div>
+
+        <div class="carousel-inner cardSlide-carousel-inner">
+          <div class="carousel-item active cardSlide-carousel-item">
+            <div class="card cardSlide-category">
+              <div class="CategoryImageAndName">
+                <div
+                  class="cardImage"
+                  style="
+                    background-image: url('https://cdn.dmart.in/images/rwd/banners/cards/12sept23-popularcat-tea1.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  "
+                ></div>
+
+                <h5>Tea</h5>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active cardSlide-carousel-item">
+            <div class="card cardSlide-category">
+              <div class="CategoryImageAndName">
+                <div
+                  class="cardImage"
+                  style="
+                    background-image: url('https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-coffee.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  "
+                ></div>
+
+                <h5>Coffee</h5>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active cardSlide-carousel-item">
+            <div class="card cardSlide-category">
+              <div class="CategoryImageAndName">
+                <div
+                  class="cardImage"
+                  style="
+                    background-image: url('https://cdn.dmart.in/images/rwd/banners/cards/1may23-popularcat-dairy.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  "
+                ></div>
+
+                <h5>Dairy</h5>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active cardSlide-carousel-item">
+            <div class="card cardSlide-category">
+              <div class="CategoryImageAndName">
+                <div
+                  class="cardImage"
+                  style="
+                    background-image: url('https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-soaps.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  "
+                ></div>
+
+                <h5>Bath Soaps</h5>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active cardSlide-carousel-item">
+            <div class="card cardSlide-category">
+              <div class="CategoryImageAndName">
+                <div
+                  class="cardImage"
+                  style="
+                    background-image: url('https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-shampoos.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  "
+                ></div>
+
+                <h5>Shampoos</h5>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active cardSlide-carousel-item">
+            <div class="card cardSlide-category">
+              <div class="CategoryImageAndName">
+                <div
+                  class="cardImage"
+                  style="
+                    background-image: url('https://cdn.dmart.in/images/rwd/banners/cards/12sept23-popularcat-softdrinks.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  "
+                ></div>
+
+                <h5>Soft Drinks</h5>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active cardSlide-carousel-item">
+            <div class="card cardSlide-category">
+              <div class="CategoryImageAndName">
+                <div
+                  class="cardImage"
+                  style="
+                    background-image: url('https://cdn.dmart.in/images/rwd/banners/cards/1apr24-popularcat-bottles.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  "
+                ></div>
+
+                <h5>Bottles & More</h5>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active cardSlide-carousel-item">
+            <div class="card cardSlide-category">
+              <div class="CategoryImageAndName">
+                <div
                   class="cardImage"
                   style="
                     background-image: url('https://cdn.dmart.in/images/rwd/banners/cards/1apr24-popularcat-towels.png');
@@ -208,30 +327,30 @@
                     background-repeat: no-repeat;
                     background-size: contain;
                   "
-                />
-              </div>
+                ></div>
 
-              <h5>Towels</h5>
+                <h5>Towels</h5>
+              </div>
             </div>
           </div>
         </div>
+        <button
+          class="carousel-control-prev CardSlide-carousel-control-prev"
+          type="button btn-primary"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <i class="fa-solid fa-less-than" style="color: #06ac19"></i>
+        </button>
+        <button
+          class="carousel-control-next CardSlide-carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <i class="fa-solid fa-greater-than" style="color: #06ac19"></i>
+        </button>
       </div>
-      <button
-        class="carousel-control-prev CardSlide-carousel-control-prev"
-        type="button btn-primary"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev"
-      >
-        <i class="fa-solid fa-less-than" style="color: #06ac19"></i>
-      </button>
-      <button
-        class="carousel-control-next CardSlide-carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
-        <i class="fa-solid fa-greater-than" style="color: #06ac19"></i>
-      </button>
     </div>
 
     <!-- 3-Banner_01 -->
@@ -803,7 +922,7 @@
       class="container container-md container-sm container-lg container-xl container-xxl container-fluid mx-auto"
     >
       <div
-        id="carouselExampleControls2"
+        id="carouselExampleControls"
         class="carousel"
         data-bs-ride="carousel"
       >
@@ -1271,7 +1390,7 @@
       class="container container-md container-sm container-lg container-xl container-xxl container-fluid mx-auto"
     >
       <div
-        id="carouselExampleControls3"
+        id="carouselExampleControls"
         class="carousel"
         data-bs-ride="carousel"
       >
