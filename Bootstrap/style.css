@@ -86,6 +86,7 @@
 body {
   font-family: "Mulish", sans-serif;
 }
+
 .CartButton {
   background-color: #25a541;
   width: 100%;
@@ -93,10 +94,12 @@ body {
   font-weight: 700;
   text-align: center;
 }
+
 .shopping_cart {
   position: relative;
   top: 5px;
 }
+
 .cardImage {
   width: 136px;
   height: 136px;
@@ -104,6 +107,7 @@ body {
   left: 50px;
   top: 10px;
 }
+
 .veglogo {
   width: 15px;
   height: 15px;
@@ -111,6 +115,7 @@ body {
   top: -40px;
   left: 60px;
 }
+
 #select::-ms-expand {
   display: none;
 }
@@ -126,21 +131,50 @@ body {
   width: 32.5%;
 }
 
+.wordfluid {
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 24px
+}
+
 .imgbanner2 {
   width: 49%;
 }
+
 .imgbanner3 {
   width: 100%;
 }
+
 .c:hover {
   transform: scale(1.03);
 }
+
+@media (max-width: 790px) {
+  .imgbanner2 {
+    width: 100%;
+  }
+
+  .imgbanner {
+    width: 100%;
+  }
+
+  .five {
+    flex-wrap: wrap;
+  }
+
+  .word {
+    line-height: 12px;
+    font-size: small;
+  }
+}
+
 
 /* ft33_246 */
 
 .slideshow-carousel-inner {
   transition-duration: 25000ms;
 }
+
 .slideshow-carousel {
   display: flex;
   overflow: hidden;
@@ -150,6 +184,7 @@ body {
   flex: 0 0 100%;
   transition: transform 2s ease;
 }
+
 .slideshow-carousel-item img {
   width: 100%;
   height: auto;
@@ -159,6 +194,7 @@ body {
   0% {
     transform: translateX(0%);
   }
+
   100% {
     transform: translateX(100%);
   }
