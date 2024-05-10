@@ -85,12 +85,52 @@
 
 body {
   font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+#containerCategory {
+  background-color: white;
+}
+#containerCategory {
+  background-color: white;
+}
+.cardSlide-category {
+  border: none;
+  padding: 12px 0px;
+  text-align: center;
+}
+.container {
+  background-color: #fff4bf;
+  border: 1px solid rgb(192, 189, 189);
+}
+.cardSlide-card {
+  width: 245px;
+  height: 380px;
+  padding: 12px, 12px;
+  box-sizing: border-box;
+}
+.CarouselTitleAndViewAll {
+  margin-bottom: 0px;
+  font-size: 16px;
+  padding: 15px 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  width: 233px;
+  height: 40px;
+  margin: 0px;
+}
+.card-title {
+  font-size: 14px;
+  margin-bottom: 0px;
 }
 
 .CartButton {
   background-color: #25a541;
   width: 100%;
   font-size: 14px;
+  padding: 6px 12px 12px 12px;
   font-weight: 700;
   text-align: center;
 }
@@ -99,23 +139,121 @@ body {
   position: relative;
   top: 5px;
 }
-
+.cardAllImage {
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+}
 .cardImage {
   width: 136px;
   height: 136px;
-  position: relative;
-  left: 50px;
-  top: 10px;
 }
 
 .veglogo {
+  background-image: url("https://i.pinimg.com/originals/e4/1f/f3/e41ff3b10a26b097602560180fb91a62.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 15px;
   height: 15px;
-  position: relative;
-  top: -40px;
-  left: 60px;
 }
-
+.TitleAndPrice {
+  padding: 0px 12px 0px 12px;
+  box-sizing: border-box;
+}
+.QuantityAndCart {
+  padding: 0px 12px 12px 12px;
+}
+.CardSlide-carousel-control-prev {
+  display: flex;
+  align-items: center;
+  width: 2rem;
+  height: 3rem;
+  top: 45%;
+  background-color: rgb(155, 151, 151);
+  border: 1px solid #ccc;
+}
+.CardSlide-carousel-control-next {
+  display: flex;
+  align-items: center;
+  width: 2rem;
+  height: 3rem;
+  top: 45%;
+  background-color: rgb(155, 151, 151);
+  border: 1px solid #ccc;
+}
+.carousel-control-prev-icon {
+  color: rgb(26, 171, 31);
+}
+@media (width > 1024px) {
+  .carousel-inner {
+    display: flex;
+  }
+  .carousel-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 0 0 0 0 calc(100% / 6);
+  }
+}
+@media (width <= 1024px) {
+  .cardSlide-card {
+    width: 310px;
+    height: 200px;
+  }
+  .ImagesPriceAndDetail {
+    padding-top: 12px;
+    box-sizing: border-box;
+    display: flex;
+  }
+  .CartButton {
+    width: 400px;
+  }
+  .select {
+    width: 10px;
+    padding: 2px;
+  }
+  .cardAllImage {
+    padding: 8px;
+    width: 103px;
+    height: 128px;
+    display: flex;
+  }
+  .QuantityAndCart {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .TitleAndPrice {
+    width: 206px;
+    padding-left: 0px;
+    height: auto;
+    display: inline;
+  }
+  .cardImage {
+    width: 90px;
+    height: 90px;
+  }
+  .cardSlide-carousel-inner {
+    display: flex;
+  }
+  .cardSlide-carousel-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100% / 2);
+  }
+}
+@media (width <= 467px) {
+  .cardSlide-carousel-inner {
+    display: flex;
+  }
+  .cardSlide-carousel-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 100%;
+  }
+  .cardSlide-card {
+    width: auto;
+  }
 #select::-ms-expand {
   display: none;
 }
