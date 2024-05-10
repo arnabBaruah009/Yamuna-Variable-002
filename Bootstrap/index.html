@@ -20,11 +20,112 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/c285424b76.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
     <!-- Navbar -->
+
+    <nav class="navbar position-sticky navbar-expand-lg fixed-top p-0 z-3">
+      <div class="container-fluid nav-container">
+        <a class="navbar-brand nav-logo" href="#" style="width: 144px"
+          ><img src="./assests/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="nav-location d-flex justify-content-between"
+          style="width: 133px"
+        >
+          <div><i class="fa-solid fa-location-dot"></i></div>
+          <div class="mx-2">
+            <p class="my-0 text-center">400008</p>
+            <p class="my-0 text-center">Mumbai</p>
+          </div>
+          <div><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+        <div class="nav-delivery px-2 my-auto" style="width: 240px">
+          <p class="m-0 mb-2 fw-semibold">
+            Earliest <span style="color: #25a541">Home Delivery</span> available
+          </p>
+          <p class="m-0 fw-bold">
+            <span style="color: orange"
+              ><i class="fa-regular fa-clock"></i
+            ></span>
+            Tomorrow 02:00 PM - 05:00 PM
+          </p>
+        </div>
+        <div class="nav-search" style="width: 472px">
+          <form class="d-flex my-auto" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search for Biscuits"
+              aria-label="Search"
+            />
+            <button class="btn" type="submit">Search</button>
+          </form>
+        </div>
+        <div class="m-auto nav-signin fw-bold" style="width: 160px">
+          <span class="mx-2" style="color: #25a541; font-size: 20px"
+            ><i class="fa-regular fa-user"></i
+          ></span>
+          <span class="m-0"> Sign In / Register </span>
+        </div>
+        <div class="m-auto" style="width: 46px">
+          <span style="color: #25a541; font-size: 20px"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></span>
+          <span>&#8377;0</span>
+        </div>
+
+        <!-- <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">All Categories</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+      </div>
+      <div class="container-fluid nav-links row p-0">
+        <div class="border border-end-0 col-2">
+          <span><i class="fa-solid fa-bars"></i></span>
+          <span>All Categories</span>
+        </div>
+        <div class="border col-10 p-0">
+          <ul
+            class="d-flex flex-wrap justify-content-between align-items-start m-0 p-0"
+          >
+            <li><a href="">Ready to Cook</a></li>
+            <li><a href="">Value Packs</a></li>
+            <li><a href="">Home Appliances</a></li>
+            <li><a href="">Cookware</a></li>
+            <li><a href="">Serveware</a></li>
+            <li><a href="">Cleaners</a></li>
+            <li><a href="">Detergent & Fabric Care</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- 1-Slideshow_01 -->
     <div
@@ -33,7 +134,7 @@
       data-bs-ride="carousel"
     >
       <div class="carousel-inner slideshow-carousel-inner">
-        <div class="carousel-item slideshow-carousel-item  active">
+        <div class="carousel-item slideshow-carousel-item active">
           <img
             src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1may24-crsl-ds-mp2.jpg&w=1920&q=75"
             class="d-block w-100"
