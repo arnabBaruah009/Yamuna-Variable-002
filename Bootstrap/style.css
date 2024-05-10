@@ -189,10 +189,10 @@ body {
   color: rgb(26, 171, 31);
 }
 @media (width > 1024px) {
-  .carousel-inner {
+  .cardSlide-carousel-inner {
     display: flex;
   }
-  .carousel-item {
+  .cardSlide-carousel-item {
     display: block;
     margin-right: 0;
     flex: 0 0 0 0 0 calc(100% / 6);
@@ -313,7 +313,7 @@ body {
 /* ft33_246 */
 
 .slideshow-carousel-inner {
-  transition-duration: 25000ms;
+  transition-duration: 4000ms;
 }
 
 .slideshow-carousel {
@@ -323,7 +323,7 @@ body {
 
 .slideshow-carousel-item {
   flex: 0 0 100%;
-  transition: transform 2s ease;
+  /* transition: transform 2s ease; */
 }
 
 .slideshow-carousel-item img {
