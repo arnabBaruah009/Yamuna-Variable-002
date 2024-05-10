@@ -189,10 +189,10 @@ body {
   color: rgb(26, 171, 31);
 }
 @media (width > 1024px) {
-  .carousel-inner {
+  .cardslide-carousel-inner {
     display: flex;
   }
-  .carousel-item {
+  .cardslide-carousel-item {
     display: block;
     margin-right: 0;
     flex: 0 0 0 0 0 calc(100% / 6);
@@ -313,7 +313,7 @@ body {
 /* ft33_246 */
 
 .slideshow-carousel-inner {
-  transition-duration: 25000ms;
+  transition-duration: 2000ms;
 }
 
 .slideshow-carousel {
