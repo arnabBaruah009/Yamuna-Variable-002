@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+header > .ar > .arbutton2, header > h2, header > .arpara1 > .arpara3 > p, header > .arpara1 > .arpara2 > p, header .arbutton1 :nth-of-type(2), header .arbutton1 :nth-of-type(1), .arlinks > a, nav > .arcomponents > button, nav > .arcomponents > div, nav > .arfirstline > .arsearch {
+  font-family: Inter;
+  text-align: left;
+}
+
+nav {
+  max-width: 1320px;
+  margin: auto;
+  padding: 22px 15px 22px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > .arfirstline {
+  display: flex;
+  align-items: center;
+  gap: 77px;
+}
+nav > .arfirstline > .arlogo {
+  width: 167px;
+  height: 32px;
+}
+nav > .arfirstline > .arsearch {
+  width: 290px;
+  height: 20px;
+  border: none;
+  font-size: 14.77px;
+  font-weight: 400;
+  line-height: 17.87px;
+  color: hsl(0, 0%, 46%);
+}
+nav > .arcomponents {
+  display: flex;
+  gap: 62.8px;
+}
+nav > .arcomponents > div {
+  font-size: 14.77px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: hsl(238, 85%, 13%);
+}
+nav > .arcomponents > button {
+  font-size: 14.3px;
+  font-weight: 500;
+  line-height: 28px;
+  color: hsl(0, 0%, 100%);
+  width: 83.31px;
+  height: 44px;
+  border-radius: 200px;
+  background-color: hsl(18, 83%, 55%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.arlinks {
+  max-width: 1320px;
+  margin: auto;
+  padding: 22px 15px 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arlinks > a {
+  font-size: 13.23px;
+  font-weight: 400;
+  line-height: 26.25px;
+  color: hsl(238, 85%, 13%);
+  text-decoration-line: none;
+}
+
+header {
+  max-width: 1320px;
+  margin: auto;
+  padding: 10px 15px 15px;
+}
+header .arbutton1 {
+  display: flex;
+  margin-bottom: 22px;
+}
+header .arbutton1 :nth-of-type(1) {
+  font-size: 13.67px;
+  font-weight: 500;
+  line-height: 28px;
+  color: hsl(18, 83%, 55%);
+  width: 96.61px;
+  height: 40px;
+  border-radius: 200px;
+  background-color: hsla(18, 83%, 55%, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+header .arbutton1 :nth-of-type(2) {
+  font-size: 13.78px;
+  font-weight: 500;
+  line-height: 28px;
+  color: hsl(0, 0%, 0%);
+  width: 145.05px;
+  height: 40px;
+  border-radius: 200px;
+  background-color: hsl(0, 0%, 96%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+header > .arpara1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > .arpara1 > .arpara2 {
+  display: flex;
+  padding-left: 105px;
+  gap: 40.8px;
+}
+header > .arpara1 > .arpara2 > p {
+  font-size: 14.41px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: hsl(238, 85%, 13%);
+}
+header > .arpara1 > .arpara3 {
+  display: flex;
+  gap: 55.8px;
+}
+header > .arpara1 > .arpara3 > p {
+  font-size: 14.41px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: hsl(238, 85%, 13%);
+}
+header > h2 {
+  font-size: 39.69px;
+  font-weight: 700;
+  line-height: 56px;
+  color: hsl(238, 85%, 13%);
+  margin: 0px;
+}
+header > .ar > .arbutton2 {
+  font-size: 14.65px;
+  font-weight: 500;
+  line-height: 24px;
+  color: hsl(0, 0%, 100%);
+  width: 140.88px;
+  height: 46px;
+  border-radius: 200px;
+  background-color: hsl(238, 85%, 13%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: relative;
+  top: 490px;
+  left: 1160px;
+}
+header > .ar > .arimages {
+  display: grid;
+  gap: 10px;
+}
+header > .ar > .arimages :nth-of-type(1) {
+  width: 100%;
+  height: 510px;
+  grid-area: 1/1/3/3;
+}
+header > .ar > .arimages :nth-of-type(2) {
+  width: 100%;
+  height: 250px;
+  grid-area: 1/3/2/5;
+}
+header > .ar > .arimages :nth-of-type(3) {
+  width: 100%;
+  height: 250px;
+  grid-area: 2/3/3/4;
+}
+header > .ar > .arimages :nth-of-type(4) {
+  width: 100%;
+  height: 250px;
+  grid-area: 2/4/3/5;
+}
+
+@media (width <= 950px) {
+  nav {
+    max-width: 1320px;
+    margin: auto;
+    padding: 22px 15px 22px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav > .arfirstline {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  nav > .arfirstline > .arlogo {
+    width: 167px;
+    height: 32px;
+  }
+  nav > .arfirstline > .arsearch {
+    width: 100px;
+    height: 20px;
+    border: none;
+    font-size: 14.77px;
+    font-weight: 400;
+    line-height: 17.87px;
+    color: hsl(0, 0%, 46%);
+  }
+  nav > .arcomponents {
+    display: flex;
+    gap: 8px;
+  }
+  nav > .arcomponents > div {
+    font-size: 14.77px;
+    font-weight: 400;
+    line-height: 28.13px;
+    color: hsl(238, 85%, 13%);
+  }
+  nav > .arcomponents > button {
+    font-size: 14.3px;
+    font-weight: 500;
+    line-height: 28px;
+    color: hsl(0, 0%, 100%);
+    width: 83.31px;
+    height: 44px;
+    border-radius: 200px;
+    background-color: hsl(18, 83%, 55%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+}
+@media (width <= 950px) {
+  nav {
+    max-width: 1320px;
+    margin: auto;
+    padding: 22px 15px 22px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav > .arfirstline {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  nav > .arfirstline > .arlogo {
+    width: 167px;
+    height: 32px;
+  }
+  nav > .arfirstline > .arsearch {
+    width: 100px;
+    height: 20px;
+    border: none;
+    font-size: 14.77px;
+    font-weight: 400;
+    line-height: 17.87px;
+    color: hsl(0, 0%, 46%);
+  }
+  nav > .arcomponents {
+    display: flex;
+    gap: 8px;
+  }
+  nav > .arcomponents > div {
+    font-size: 14.77px;
+    font-weight: 400;
+    line-height: 28.13px;
+    color: hsl(238, 85%, 13%);
+  }
+  nav > .arcomponents > button {
+    font-size: 14.3px;
+    font-weight: 500;
+    line-height: 28px;
+    color: hsl(0, 0%, 100%);
+    width: 83.31px;
+    height: 44px;
+    border-radius: 200px;
+    background-color: hsl(18, 83%, 55%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+}/*# sourceMappingURL=style.css.map */
