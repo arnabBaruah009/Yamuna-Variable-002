@@ -37,26 +37,19 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./main.css" />
   </head>
 
   <body>
     <!-- Navbar -->
 
-    <nav class="navbar position-sticky navbar-expand-lg fixed-top p-0 z-3">
+    <nav
+      class="navbar position-sticky navbar-expand-lg fixed-top p-0 z-3 d-none d-lg-block"
+    >
       <div class="container-xxl nav-container">
         <a class="navbar-brand nav-logo" href="#" style="width: 144px"
           ><img src="./assests/logo.png" alt=""
         /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
         <div
           class="nav-location d-flex justify-content-between"
@@ -103,22 +96,8 @@
           ></span>
           <span>&#8377;0</span>
         </div>
-
-        <!-- <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">All Categories</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-            </ul>
-          </div>
-        </div> -->
       </div>
-      <div class="container-xxl nav-links row p-0">
+      <div class="container-xxl nav-links row p-0 mx-auto">
         <div class="border border-end-0 col-2">
           <span><i class="fa-solid fa-bars"></i></span>
           <span>All Categories</span>
@@ -135,6 +114,133 @@
             <li><a href="">Cleaners</a></li>
             <li><a href="">Detergent & Fabric Care</a></li>
           </ul>
+        </div>
+      </div>
+    </nav>
+
+    <nav
+      class="navbar navbar-expand-lg  p-0 z-3 d-block d-lg-none"
+    >
+      <div
+        class="container-md container-sm nav-container d-flex flex-column p-0 position-sticky fixed-top z-3"
+      >
+        <div
+          class="container-md container-sm d-flex justify-content-between align-items-center p-0"
+        >
+          <div>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand nav-logo" href="#" style="width: 144px"
+              ><img src="./assests/logo.png" alt=""
+            /></a>
+          </div>
+          <div class="d-flex justify-content-between" style="width: 10%">
+            <span class="mx-2" style="color: #25a541; font-size: 20px"
+              ><i class="fa-regular fa-user"></i
+            ></span>
+            <span style="color: #25a541; font-size: 20px"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+          </div>
+        </div>
+        <div class="container-md container-sm border nav-search-md d-flex">
+          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          <input class="" type="search" placeholder="Search for Biscuits" />
+        </div>
+
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              All Categories
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Ready to Cook</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Value Packs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Home Appliances</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Cookware</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Serveware</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Cleaners</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Detergent & Fabric Care</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-md container-sm d-flex nav-location-md p-0">
+        <div>
+          <div
+            class="nav-location-md-2 d-flex justify-content-between mx-auto"
+            style="width: 133px"
+          >
+            <div><i class="fa-solid fa-location-dot"></i></div>
+            <div class="mx-2">
+              <p class="my-0 text-center">400008</p>
+              <p class="my-0 text-center">Mumbai</p>
+            </div>
+            <div><i class="fa-solid fa-angle-down"></i></div>
+          </div>
+        </div>
+
+        <div class="nav-delivery px-2 my-auto" style="width: 240px">
+          <p class="m-0 mb-2 fw-semibold">
+            Earliest
+            <span style="color: #25a541">Home Delivery</span> available
+          </p>
+          <p class="m-0 fw-bold">
+            <span style="color: orange"
+              ><i class="fa-regular fa-clock"></i
+            ></span>
+            Tomorrow 02:00 PM - 05:00 PM
+          </p>
         </div>
       </div>
     </nav>
