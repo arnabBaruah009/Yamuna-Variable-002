@@ -24,9 +24,11 @@ $text-color: #05073c;
   color: $color;
 }
 
-@mixin text-typography {
+@mixin text-typography($weight, $size, $height) {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
   color: $text-color;
 }
 
@@ -283,52 +285,144 @@ header {
 
 // ft33_185
 
-.section-3-container{
+.section-3-container {
   max-width: 1320px;
   margin: auto;
   margin-top: 45px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section3-sidebar {
+  width: 360px;
+  height: fit-content;
+  border: 1px solid #e7e6e6;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px 0px #0000000d;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 31px;
+
+  p:first-child {
+    @include text-typography(400, 14.88px, 28.13px);
+    span {
+      @include text-typography(500, 18.75px, 37.5px);
+    }
+  }
+
+  p:nth-of-type(2){
+    @include text-typography(500, 17.44px, 27px);
+  }
+
+  button{
+    @include letters(14.41, 500, 28, #FFFFFF);
+    @include button(100%, 62px, 12px, #EB662B);
+  }
+}
+
+.sidebar-duration{
+  border: 1px solid #DDDDDD;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  .section3-main-1-item{
+    justify-content: flex-start;
+  }
+}
+
+.tickets{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  margin-bottom: 20px;
+
+  > div:last-child{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p{
+        @include text-typography(400, 14px, 26.25px);
+      }
+    }
+  }
+
+  > div:first-child{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    p{
+      @include text-typography(400, 13.34px , 26.25px);
+      span{
+        @include text-typography(500, 13.34px, 26.25px);
+      }
+    }
+  }
+  
+
+  .ticket-box{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #E7E6E6;
+    border-radius: 30px;
+  }
+}
+
+.total{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  span:first-child{
+    @include text-typography(500, 16.88px, 33.75px);
+  }
+
+  span:last-child{
+    @include text-typography(500, 17.72px, 33.75px);
+  }
 }
 
 .section3-main {
   max-width: 880px;
-  padding: 15px;
-  border: 1px solid grey;
+  padding: 0px 65px 15px 15px;
 
   .section3-main-1 {
     width: 100%;
     display: flex;
     justify-content: space-between;
+  }
+}
 
-    .section3-main-1-item {
-      display: flex;
-      justify-content: space-between;
+.section3-main-1-item {
+  display: flex;
+  justify-content: space-between;
 
-      .section3-main-1-itembox {
-        width: 50px;
-        height: 50px;
-        border: 1px solid #e7e6e6;
-        border-radius: 12px;
-        margin-right: 10px;
-      }
+  .section3-main-1-itembox {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e7e6e6;
+    border-radius: 12px;
+    margin-right: 10px;
+  }
 
-      .section3-main-1-itemtext {
-        display: flex;
-        flex-direction: column;
-      }
-    }
+  .section3-main-1-itemtext {
+    display: flex;
+    flex-direction: column;
   }
 }
 
 .section3-main-1-itemtext-first {
-  @include text-typography();
-  font-size: 14.77px;
-  line-height: 24px;
+  @include text-typography(400, 14.77px, 24px);
 }
 
 .section3-main-1-itemtext-second {
-  @include text-typography();
-  font-size: 13.45px;
-  line-height: 22.4px;
+  @include text-typography(400, 13.45px, 22.4px);
   color: #717171;
 }
 
@@ -338,9 +432,7 @@ header {
     @include section3-heading-typography();
   }
   p {
-    @include text-typography();
-    font-size: 14.41px;
-    line-height: 28.13px;
+    @include text-typography(400, 14.41px, 28.13px);
   }
   h3 {
     font-family: Inter;
@@ -352,9 +444,7 @@ header {
   }
   ul {
     li {
-      @include text-typography();
-      font-size: 14.53px;
-      line-height: 28.13px;
+      @include text-typography(400, 14.53px, 28.13px);
     }
   }
 }
@@ -376,9 +466,7 @@ header {
     display: flex;
     align-items: center;
     p {
-      @include text-typography();
-      font-size: 14.41px;
-      line-height: 28.13px;
+      @include text-typography(400, 14.41px, 28.13px);
     }
   }
   .section-3-main-3-grid-item:nth-child(-n + 6) {
@@ -412,10 +500,7 @@ header {
     padding-bottom: 45px;
     border-left: 1px dashed #eb662b;
     p {
-      @include text-typography();
-      font-weight: 500;
-      font-size: 15.36px;
-      line-height: 30px;
+      @include text-typography(500, 15.36px, 30px);
       margin: 0;
     }
   }
@@ -448,16 +533,11 @@ header {
     align-items: flex-start;
     div:last-child {
       p:first-child {
-        @include text-typography();
-        font-weight: 500;
-        font-size: 15.36px;
-        line-height: 30px;
+        @include text-typography(500, 15.36px, 30px);
         margin-bottom: 19px;
       }
       p:last-child {
-        @include text-typography();
-        font-size: 14.53px;
-        line-height: 28.13px;
+        @include text-typography(400, 14.53px, 28.13px);
         width: 566px;
       }
     }

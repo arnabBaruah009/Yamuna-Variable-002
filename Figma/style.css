@@ -454,12 +454,192 @@ header > .ar > .arimages :nth-of-type(4) {
   max-width: 1320px;
   margin: auto;
   margin-top: 45px;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section3-sidebar {
+  width: 360px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 1px solid #e7e6e6;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 10px 40px 0px #0000000d;
+          box-shadow: 0px 10px 40px 0px #0000000d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 35px 31px;
+}
+
+.section3-sidebar p:first-child {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14.88px;
+  line-height: 28.13px;
+  color: #05073c;
+}
+
+.section3-sidebar p:first-child span {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18.75px;
+  line-height: 37.5px;
+  color: #05073c;
+}
+
+.section3-sidebar p:nth-of-type(2) {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 17.44px;
+  line-height: 27px;
+  color: #05073c;
+}
+
+.section3-sidebar button {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 14.41;
+  font-weight: 500;
+  line-height: 28;
+  color: #FFFFFF;
+  width: 100%;
+  height: 62px;
+  border-radius: 12px;
+  background-color: #EB662B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+}
+
+.sidebar-duration {
+  border: 1px solid #DDDDDD;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.sidebar-duration .section3-main-1-item {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.tickets {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.tickets > div:last-child {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+.tickets > div:last-child div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tickets > div:last-child div p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26.25px;
+  color: #05073c;
+}
+
+.tickets > div:first-child {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+.tickets > div:first-child p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 13.34px;
+  line-height: 26.25px;
+  color: #05073c;
+}
+
+.tickets > div:first-child p span {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 13.34px;
+  line-height: 26.25px;
+  color: #05073c;
+}
+
+.tickets .ticket-box {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #E7E6E6;
+  border-radius: 30px;
+}
+
+.total {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.total span:first-child {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16.88px;
+  line-height: 33.75px;
+  color: #05073c;
+}
+
+.total span:last-child {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 17.72px;
+  line-height: 33.75px;
+  color: #05073c;
 }
 
 .section3-main {
   max-width: 880px;
-  padding: 15px;
-  border: 1px solid grey;
+  padding: 0px 65px 15px 15px;
 }
 
 .section3-main .section3-main-1 {
@@ -472,7 +652,7 @@ header > .ar > .arimages :nth-of-type(4) {
           justify-content: space-between;
 }
 
-.section3-main .section3-main-1 .section3-main-1-item {
+.section3-main-1-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -481,7 +661,7 @@ header > .ar > .arimages :nth-of-type(4) {
           justify-content: space-between;
 }
 
-.section3-main .section3-main-1 .section3-main-1-item .section3-main-1-itembox {
+.section3-main-1-item .section3-main-1-itembox {
   width: 50px;
   height: 50px;
   border: 1px solid #e7e6e6;
@@ -489,7 +669,7 @@ header > .ar > .arimages :nth-of-type(4) {
   margin-right: 10px;
 }
 
-.section3-main .section3-main-1 .section3-main-1-item .section3-main-1-itemtext {
+.section3-main-1-item .section3-main-1-itemtext {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -502,17 +682,17 @@ header > .ar > .arimages :nth-of-type(4) {
 .section3-main-1-itemtext-first {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  color: #05073c;
   font-size: 14.77px;
   line-height: 24px;
+  color: #05073c;
 }
 
 .section3-main-1-itemtext-second {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  color: #05073c;
   font-size: 13.45px;
   line-height: 22.4px;
+  color: #05073c;
   color: #717171;
 }
 
@@ -535,9 +715,9 @@ header > .ar > .arimages :nth-of-type(4) {
 .section-3-main-2 p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  color: #05073c;
   font-size: 14.41px;
   line-height: 28.13px;
+  color: #05073c;
 }
 
 .section-3-main-2 h3 {
@@ -552,9 +732,9 @@ header > .ar > .arimages :nth-of-type(4) {
 .section-3-main-2 ul li {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  color: #05073c;
   font-size: 14.53px;
   line-height: 28.13px;
+  color: #05073c;
 }
 
 .section-3-main-3 {
@@ -597,9 +777,9 @@ header > .ar > .arimages :nth-of-type(4) {
 .section-3-main-3-grid .section-3-main-3-grid-item p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  color: #05073c;
   font-size: 14.41px;
   line-height: 28.13px;
+  color: #05073c;
 }
 
 .section-3-main-3-grid .section-3-main-3-grid-item:nth-child(-n + 6) .section-3-main-3-grid-item-marker {
@@ -654,11 +834,10 @@ header > .ar > .arimages :nth-of-type(4) {
 
 .itinerary-grid .itinerary-grid-item p {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
-  color: #05073c;
   font-weight: 500;
   font-size: 15.36px;
   line-height: 30px;
+  color: #05073c;
   margin: 0;
 }
 
@@ -693,20 +872,19 @@ header > .ar > .arimages :nth-of-type(4) {
 
 .itinerary-grid .itinerary-grid-item:nth-child(3) div:last-child p:first-child {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
-  color: #05073c;
   font-weight: 500;
   font-size: 15.36px;
   line-height: 30px;
+  color: #05073c;
   margin-bottom: 19px;
 }
 
 .itinerary-grid .itinerary-grid-item:nth-child(3) div:last-child p:last-child {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  color: #05073c;
   font-size: 14.53px;
   line-height: 28.13px;
+  color: #05073c;
   width: 566px;
 }
 
