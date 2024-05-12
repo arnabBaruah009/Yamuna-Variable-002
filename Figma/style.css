@@ -33,6 +33,7 @@ nav > .arfirstline > .arsearch {
 nav > .arcomponents {
   display: flex;
   gap: 62.8px;
+  align-items: center;
 }
 nav > .arcomponents > div {
   font-size: 14.77px;
@@ -78,6 +79,7 @@ header {
 }
 header .arbutton1 {
   display: flex;
+  gap: 10px;
   margin-bottom: 22px;
 }
 header .arbutton1 :nth-of-type(1) {
@@ -183,7 +185,7 @@ header > .ar > .arimages :nth-of-type(4) {
   grid-area: 2/4/3/5;
 }
 
-@media (width <= 950px) {
+@media (width <= 1050px) {
   nav {
     max-width: 1320px;
     margin: auto;
@@ -235,7 +237,7 @@ header > .ar > .arimages :nth-of-type(4) {
     border: none;
   }
 }
-@media (width <= 950px) {
+@media (width <= 540px) {
   nav {
     max-width: 1320px;
     margin: auto;

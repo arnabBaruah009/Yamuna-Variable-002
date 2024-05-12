@@ -54,7 +54,7 @@ nav {
     >.arcomponents {
         display: flex;
         gap: 62.8px;
-
+        align-items: center;
         >div {
             @include letters(14.77px, 400, 28.13px, hsla(238, 85%, 13%, 1));
         }
@@ -83,10 +83,11 @@ nav {
 header {
     max-width: 1320px;
     margin: auto;
-    padding: 10px 15px 15px;
+    padding: 10px 15px 0px 15px;
 
-    .arbutton1 {
+    >.arbutton1 {
         display: flex;
+        gap: 10px;
         margin-bottom: 22px;
         :nth-of-type(1) {
             @include letters(13.67px, 500, 28px, hsla(18, 83%, 55%, 1));
@@ -166,7 +167,7 @@ header {
     }
 }
 
-@media (width <= 1050px) {
+@media (width <= 1150px) {
     nav {
         max-width: 1320px;
         margin: auto;
