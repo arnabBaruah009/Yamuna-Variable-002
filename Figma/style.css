@@ -1,3 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+nav {
+  max-width: 1320px;
+  margin: auto;
+  padding: 22px 15px 22px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav > .arfirstline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 77px;
+}
+
+nav > .arfirstline > .arlogo {
+  width: 167px;
+  height: 32px;
+}
+
+nav > .arfirstline > .arsearch {
+  width: 290px;
+  height: 20px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 14.77px;
+  font-weight: 400;
+  line-height: 17.87px;
+  color: #757575;
+}
+
+nav > .arcomponents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 62.8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav > .arcomponents > div {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 14.77px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: #05073d;
+}
+
+nav > .arcomponents > button {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 14.3px;
+  font-weight: 500;
+  line-height: 28px;
+  color: white;
+  width: 83.31px;
+  height: 44px;
+  border-radius: 200px;
+  background-color: #eb662d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+}
+
+.arlinks {
+  max-width: 1320px;
+  margin: auto;
+  padding: 22px 15px 20px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.arlinks > a {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 13.23px;
+  font-weight: 400;
+  line-height: 26.25px;
+  color: #05073d;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+header {
+  max-width: 1320px;
+  margin: auto;
+  padding: 10px 15px 0px 15px;
+}
+
+header > .arbutton1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+header > .arbutton1 :nth-of-type(1) {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 13.67px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #eb662d;
+  width: 96.61px;
+  height: 40px;
+  border-radius: 200px;
+  background-color: rgba(235, 102, 45, 0.05);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+}
+
+header > .arbutton1 :nth-of-type(2) {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 13.78px;
+  font-weight: 500;
+  line-height: 28px;
+  color: black;
+  width: 145.05px;
+  height: 40px;
+  border-radius: 200px;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+}
+
+header > .arpara1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header > .arpara1 > .arpara2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 105px;
+  gap: 40.8px;
+}
+
+header > .arpara1 > .arpara2 > p {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 14.41px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: #05073d;
+}
+
+header > .arpara1 > .arpara3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 55.8px;
+}
+
+header > .arpara1 > .arpara3 > p {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 14.41px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: #05073d;
+}
+
+header > h2 {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 39.69px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #05073d;
+  margin: 0px;
+}
+
+header > .ar > .arbutton2 {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 14.65px;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  width: 140.88px;
+  height: 46px;
+  border-radius: 200px;
+  background-color: #05073d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  position: relative;
+  top: 490px;
+  left: 1160px;
+}
+
+header > .ar > .arimages {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+}
+
+header > .ar > .arimages :nth-of-type(1) {
+  width: 100%;
+  height: 510px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 1/1/3/3;
+}
+
+header > .ar > .arimages :nth-of-type(2) {
+  width: 100%;
+  height: 250px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: 1/3/2/5;
+}
+
+header > .ar > .arimages :nth-of-type(3) {
+  width: 100%;
+  height: 250px;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 2/3/3/4;
+}
+
+header > .ar > .arimages :nth-of-type(4) {
+  width: 100%;
+  height: 250px;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-area: 2/4/3/5;
+}
+
+@media (max-width: 1150px) {
+  nav {
+    max-width: 1320px;
+    margin: auto;
+    padding: 22px 15px 22px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  nav > .arfirstline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+  }
+  nav > .arfirstline > .arlogo {
+    width: 167px;
+    height: 32px;
+  }
+  nav > .arfirstline > .arsearch {
+    width: 150px;
+    height: 20px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 14.77px;
+    font-weight: 400;
+    line-height: 17.87px;
+    color: #757575;
+  }
+  nav > .arcomponents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+  }
+  nav > .arcomponents > div {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 14.77px;
+    font-weight: 400;
+    line-height: 28.13px;
+    color: #05073d;
+  }
+  nav > .arcomponents > button {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 14.3px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+    width: 83.31px;
+    height: 44px;
+    border-radius: 200px;
+    background-color: #eb662d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: none;
+  }
+}
+
+@media (max-width: 540px) {
+  nav {
+    max-width: 1320px;
+    margin: auto;
+    padding: 22px 15px 22px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  nav > .arfirstline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 3px;
+  }
+  nav > .arfirstline > .arlogo {
+    width: 167px;
+    height: 32px;
+  }
+  nav > .arfirstline > .arsearch {
+    width: 50px;
+    height: 20px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 14.77px;
+    font-weight: 400;
+    line-height: 17.87px;
+    color: #757575;
+  }
+  nav > .arcomponents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+  }
+  nav > .arcomponents > div {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 14.77px;
+    font-weight: 400;
+    line-height: 28.13px;
+    color: #05073d;
+  }
+  nav > .arcomponents > button {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 14.3px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+    width: 83.31px;
+    height: 44px;
+    border-radius: 200px;
+    background-color: #eb662d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: none;
+  }
+}
+
+.section-3-container {
+  max-width: 1320px;
+  margin: auto;
+  margin-top: 45px;
+}
+
 .section3-main {
   max-width: 880px;
   padding: 15px;
