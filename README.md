@@ -1,4 +1,4 @@
-# Yamuna-Variable-002
+# D-Mart
 
 ## Introduction
 The core functionality of the project revolves around streamlining the retail process to make shopping more convenient and cost-effective for the users. The site will offer an extensive selection of products spanning from groceries, fresh produce, household essentials, electronics, apparel, and much more, all at the same place.
@@ -41,7 +41,7 @@ Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
 --------------------------------
 
 
-# Yamuna-Variable-002
+# Viatours
 
 ## Introduction
 The core functionality of the project revolves around empowering users to easily plan a holiday trip in any destination of the world. The site will provide information of the destination, give detailed itinerary, FAQ and other users feedback, all at the same place.
