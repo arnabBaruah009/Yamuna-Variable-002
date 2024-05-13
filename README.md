@@ -19,7 +19,7 @@ Bootstrap/
 ```
 
 ## Video Walkthrough of the project
-Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
+Attach a very short video walkthough of all of the features [[ 1 - 3 minutes ](https://drive.google.com/file/d/1gNSB2iB1qTzqTjpavKimRm14shq1_HcW/view?usp=drive_link)]
 
 ## Features
 - Responsive Design
@@ -62,7 +62,7 @@ Figma/
 ```
 
 ## Video Walkthrough of the project
-Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
+Attach a very short video walkthough of all of the features [[ 1 - 3 minutes ](https://drive.google.com/file/d/19i8DjCq5A9byCAegxJGH1qFZDNGd4X3b/view?usp=sharing)]
 
 ## Features
 - Responsive Design
