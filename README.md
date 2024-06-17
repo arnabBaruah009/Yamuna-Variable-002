@@ -6,7 +6,7 @@ The core functionality of the project revolves around streamlining the retail pr
 ## Project Type
 Frontend
 
-## Deplolyed App
+## Deployed App
 Frontend: [Project Link](https://resplendent-croquembouche-80dfe1.netlify.app/)
 
 ## Directory Structure
